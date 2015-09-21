@@ -1,4 +1,4 @@
-function sayHello(guest) {
-    alert("hello " + guest + ".");
+function sayHello(greeting, guest) {
+    alert(greeting + " " + guest + ".");
 }
 
