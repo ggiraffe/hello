@@ -36,10 +36,10 @@ var greet = (function() {
         "Hiya!"
     ];
  
-    return function() {
+    return function(guest) {
         var count = greetings.length;
         var idx = Math.floor(Math.random() * count);
-        alert(greetings[idx]);
+		sayHello(greetings[idx], guest);
     };
 }());
 
